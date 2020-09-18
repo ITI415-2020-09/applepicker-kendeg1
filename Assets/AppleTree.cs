@@ -20,6 +20,7 @@ public class AppleTree : MonoBehaviour
     // Rate at which Apples will be instantiate
     public float secondsBetweenAppleDrop;
 
+
     void Start()
     {
         // Dropping apples every second
@@ -59,6 +60,7 @@ public class AppleTree : MonoBehaviour
             speed = -Mathf.Abs(speed); // move left
 
         }
+
 
     }
 
