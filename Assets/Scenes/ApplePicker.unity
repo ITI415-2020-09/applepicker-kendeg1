@@ -305,6 +305,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8237588661876086618, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8237588661876086618, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
+      propertyPath: chanceToChangeDirection
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8237588661876086618, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 5670488209948257483, guid: 4cc13cbdafa314248aac85f2fdc12521, type: 3}
     - target: {fileID: 4883705077357310833, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
       propertyPath: m_Name
       value: AppleTree
@@ -352,6 +364,10 @@ PrefabInstance:
     - target: {fileID: 4883705077357310838, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4883705077357310839, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a5a6fd6acef2e48a6fca64630656f4, type: 3}
