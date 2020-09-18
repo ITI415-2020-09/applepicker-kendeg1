@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ApplePicker.unity
+    guid: d8dd0dba361f2fa4b905d8d6a68c0708
   m_configObjects: {}
